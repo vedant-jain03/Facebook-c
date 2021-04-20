@@ -1,0 +1,25 @@
+.slidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    cursor: pointer;
+}
+.slidebarRow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.slidebarRow > h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+.slidebarRow > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+.slidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+.fixed{
+    position: sticky;
+}

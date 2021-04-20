@@ -1,0 +1,35 @@
+.login > div> img:nth-child(1){
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.login > div> img:nth-child(2){
+    object-fit: contain;
+    height: 30px;
+}
+.login{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.login>div{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background: #2e81f4 ;
+    color: white;
+    font-weight: bold;
+    padding: 5px 100px;
+    outline-width: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease-in 100ms;
+}
+button:hover{
+    color: #2e81f4;
+    background-color: white;
+}

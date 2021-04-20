@@ -1,0 +1,72 @@
+.Post{
+    width: 100%;
+    margin-top: 15px;   
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 7px -9px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+.Post_top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.Post_avatar{
+    margin-right: 10px;
+}
+.Post_topInfo>h3{
+    font-size: medium;
+}
+.Post_topInfo > p{
+    color: grey;
+}
+.Post_bottom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+}
+.Post_options{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+.Post_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex: 1;
+}
+.Post_option>p{
+    margin-left: 10px;
+}
+.Post_option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+.Post_image>img{
+    width: 100%;
+}.Post_option{
+    color: #808080;
+    transition: 0.2s ease;
+}
+.liked{
+    color: #1778f2;
+    font-weight: bold;
+    background-color: #0073ff34;
+    border-radius: 25px;
+}
+.liked:nth-child(1){
+    transform: scale(1.01,1.01);
+}
+
+.liked:nth-child(2){
+    transform: scale(1.02,1.02);
+}
