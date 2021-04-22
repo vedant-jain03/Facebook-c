@@ -7,7 +7,7 @@ The APP is created with the latest industry standards using React.js, Material U
 Authentication : Google OAuth
 Firebase is used for the backend
 
-Working Site: vedant-jain03.github.io/facebook-c/ 
+Working Site: https://vedant-jain03.github.io/Facebook-c/
 
 Video Demo: https://www.linkedin.com/feed/update/urn:li:activity:6773866858329313280/
 
