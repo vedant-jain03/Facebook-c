@@ -24,6 +24,7 @@ Video Demo: https://www.linkedin.com/feed/update/urn:li:activity:677386685832931
 - React.js
 - Material UI
 - Firebase
+- Github
 
 ## Getting Started
 
